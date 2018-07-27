@@ -1,0 +1,20 @@
+<?php 
+include 'header.phtml'; 
+?>
+		<main>
+			<?php
+				foreach ($persos as $perso) {
+					echo "<div class='perso'>";
+					echo "<img src='$perso[avatar]'>";
+					echo "<p> <strong>$perso[nom]</strong></p>";
+					echo "<p>HP : $perso[HP]</p>";
+					echo "<p>Armure : $perso[armor]</p>";
+					echo "<p>Arme : $perso[weapon_id]</p>";
+					echo "</div>";
+				}
+			?>
+
+		</main>
+<?php 
+include 'footer.phtml'; 
+?>

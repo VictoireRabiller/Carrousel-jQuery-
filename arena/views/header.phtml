@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="../css/normalize.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+		<title>Arena</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li class="<?= $page == 'accueil' ? 'selected' : '' ?>"> <a href="index.php">Accueil</a> </li> 
+					<li class="<?= $page == 'createPerso' ? 'selected' : '' ?>"><a href="createPerso.php">Créer un personnage</a></li>
+					<li class="<?= $page == 'listPerso' ? 'selected' : '' ?>"><a href="listPerso.php">Liste des personnages</a></li>
+					<li class="<?= $page == 'arena' ? 'selected' : '' ?>"><a href="arena.php">Arène</a></li>
+				</ul>
+			</nav>
+		</header>
+		

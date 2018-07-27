@@ -1,0 +1,73 @@
+html {
+	font-size: 62.5%; /*1rem = 10px*/
+}
+
+*{
+	box-sizing: border-box;
+}
+
+ul{
+	list-style-type: none;
+
+}
+
+body{
+	background-image : url(../images/concrete_seamless.png);
+	font-family: 'Open Sans', sans-serif;
+	width: 800px;
+	margin: 0 auto;
+	line-height: 1.6;
+	font-size: 1.6rem;
+
+}
+
+h1{
+	color : #015770;
+}
+
+h2, figcaption{
+	color: #2a8782;
+}
+
+img{
+	border : 15px solid #ffffff;
+	border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px grey;
+    transform: rotate(-5deg);
+}
+
+figcaption{
+	margin: 5rem auto;
+	font-size: 3rem;
+	font-weight: bold;
+	text-shadow: 0 0 5px grey;
+	text-align: center;
+	transform: rotate(-5deg);
+}
+
+#barreOutils, #pause{
+	display : none;
+}
+
+/*
+#carrousel{
+
+    position:relative;
+
+    height:200px;
+
+    width:700px;
+
+    margin:auto;
+
+}
+
+#carrousel ul li{
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+}*/

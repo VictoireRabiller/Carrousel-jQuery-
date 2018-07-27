@@ -1,0 +1,37 @@
+<?php 
+include 'header.phtml'; 
+?>
+<main>
+	<form method="POST" action="addPerso.php">
+		<div class="mepForm">
+			<label for="nom">Nom</label>
+			<input type="text" name="nom" id="nom">
+		</div>
+		<div class="mepForm">
+			<label for="HP">Point de Vie</label>
+			<input type="text" name="HP" id="HP">
+		</div>
+		<div class="mepForm">
+			<label for="armor">Armure</label>
+			<input type="text" name="armor" id="armor">
+		</div>
+		<div class="mepForm">
+			<label for="weapon">Arme</label>
+			<select type="text" name="weapon" id="weapon">
+				<option value="épée">Epée</option>
+				<option value="arc">Arc</option>
+				<option value="pistolet">Pistolet</option>
+				<option value="arbalete">Arbalète</option>
+			</select>
+		
+		</div>
+		<div class="mepForm">
+			<label for="avatar">Avatar</label>
+			<input type="text" name="avatar" id="avatar">
+		</div>
+		<button>Save</button>
+	</form>
+</main>
+<?php 
+include 'footer.phtml'; 
+?>
